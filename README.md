@@ -31,4 +31,5 @@ edit produk
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bf80af79-dfbe-4ef7-a31d-40a9bb1334ff" />
 
 crud produk
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb8dafc2-c8ab-4a37-b0f6-abe876e5a4ee" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/45e03bd4-6205-4899-a4ec-fd8612cfccfb" />
