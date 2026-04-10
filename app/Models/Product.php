@@ -6,10 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    protected $fillable = [
-        'name',
-        'qty',
-        'price',
-        'user_id'
-    ];
+    // Semua kode harus di dalam kurung kurawal ini
+    protected $fillable = ['name', 'qty', 'price', 'user_id'];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

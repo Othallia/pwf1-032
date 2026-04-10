@@ -16,6 +16,10 @@
                     <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
                         {{ __('About') }}
                     </x-nav-link>
+
+                    <x-nav-link :href="route('product.index')" :active="request()->routeIs('product.*')">
+                        {{ __('Product') }}
+                    </x-nav-link>
                 </div>
             </div>
 
@@ -36,6 +40,7 @@
                         <x-dropdown-link :href="route('profile.edit')">
                             {{ __('Profile') }}
                         </x-dropdown-link>
+
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf
                             <x-dropdown-link :href="route('logout')" onclick="event.preventDefault(); this.closest('form').submit();">
