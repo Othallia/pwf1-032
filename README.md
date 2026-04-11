@@ -33,3 +33,6 @@ edit produk
 crud produk
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb8dafc2-c8ab-4a37-b0f6-abe876e5a4ee" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/45e03bd4-6205-4899-a4ec-fd8612cfccfb" />
+
+##Praktikum 6
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1dd2587a-1be5-4c2b-9867-32dd94244401" />
