@@ -1,86 +1,19 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Policies;
 
 use App\Models\Product;
 use App\Models\User;
-use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class ProductPolicy
 {
-    public function index()
+    public function update(User $user, Product $product): bool
     {
-        $products = Product::all();
-
-        return view('product.index', compact('products'));
+        return $user->id === $product->user_id || $user->role === 'admin';
     }
 
-    public function store(Request $request)
+    public function delete(User $user, Product $product): bool
     {
-        $validated = $request->validate([
-            'name' => 'required|string|max:255',
-            'quantity' => 'required|integer',
-            'price' => 'required|numeric',
-            'user_id' => 'required|exists:users,id',
-        ]);
-
-        $product = Product::create($validated);
-
-        return redirect()->route('product.index')->with('success', 'Product created successfully.');
-    }
-
-    public function create()
-    {
-        $users = User::orderBy('name')->get();
-
-        return view('product.create', compact('users'));
-    }
-
-    public function show($id)
-    {
-        $product = Product::findOrFail($id);
-
-        return view('product.view', compact('product'));
-    }
-
-    public function update(Request $request, $id)
-    {
-        $product = Product::findOrFail($id);
-
-        // Pengecekan Policy untuk Update
-        $this->authorize('update', $product);
-
-        $validated = $request->validate([
-            'name' => 'sometimes|string|max:255',
-            'quantity' => 'sometimes|integer',
-            'price' => 'sometimes|numeric',
-            'user_id' => 'sometimes|exists:users,id',
-        ]);
-
-        $product->update($validated);
-
-        return redirect()->route('product.index')->with('success', 'Product updated successfully.');
-    }
-
-    public function edit(Product $product)
-    {
-        // Pengecekan Policy untuk Edit (menampilkan form)
-        $this->authorize('update', $product);
-
-        $users = User::orderBy('name')->get();
-
-        return view('product.edit', compact('product', 'users'));
-    }
-
-    public function delete($id)
-    {
-        $product = Product::findOrFail($id);
-
-        // Pengecekan Policy untuk Delete
-        $this->authorize('delete', $product);
-
-        $product->delete();
-
-        return redirect()->route('product.index')->with('success', 'Product berhasil dihapus');
+        return $user->id === $product->user_id || $user->role === 'admin';
     }
 }

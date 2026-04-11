@@ -2,12 +2,20 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    // Semua kode harus di dalam kurung kurawal ini
-    protected $fillable = ['name', 'qty', 'price', 'user_id'];
+    use HasFactory;
+
+    // Kolom ini WAJIB ada agar fungsi ->update() atau ::create() jalan
+    protected $fillable = [
+        'name',
+        'qty',   // Pastikan 'qty' ada di sini
+        'price', // Pastikan 'price' ada di sini
+        'user_id',
+    ];
 
     public function user()
     {
