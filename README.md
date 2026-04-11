@@ -22,3 +22,17 @@ migration
 Database
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/776044a3-fdf2-41e1-a77f-b584ec94ec74" />
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e9d543aa-6f6c-4ce1-b5ad-d29919bc5b7e" />
+
+## PRAKTIKUM 5
+Produk
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/72d98ebe-9016-459c-b192-c5630756673a" />
+
+edit produk
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bf80af79-dfbe-4ef7-a31d-40a9bb1334ff" />
+
+crud produk
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb8dafc2-c8ab-4a37-b0f6-abe876e5a4ee" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/45e03bd4-6205-4899-a4ec-fd8612cfccfb" />
+
+##Praktikum 6
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1dd2587a-1be5-4c2b-9867-32dd94244401" />
