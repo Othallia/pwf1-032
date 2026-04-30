@@ -40,21 +40,21 @@ crud produk
 ## Praktikum 7
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/00351139-4491-4396-9072-cb92f4b9f839" />
 
-# edit detail
+edit detail
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/146a1f29-b9a1-4b24-b2ae-dce569ba38c3" />
 
-# hapus detail
+hapus detail
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02419deb-c028-4669-a921-9e6c1ec99a40" />
 
 ## UCP 1
-# Dashboard
+Dashboard
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e19aad08-df10-4ad8-99c8-0a842a894949" />
 
-# category
+category
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fd5125bf-3f3c-4497-bebb-1d8c03dae38b" />
 
-# add category
+add category
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fc6ca054-9534-4714-95ef-8640e6c707a9" />
 
-# Add Product ubah dengan relasi ke Category
+Add Product ubah dengan relasi ke Category
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f534306-3154-453f-bf1f-8e43fbe4fec9" />
