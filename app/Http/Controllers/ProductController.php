@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use App\Models\User;
+use App\Models\Category; // Tambahkan import model Category
 use Illuminate\Http\Request;
 use App\Http\Requests\StoreProductRequest; 
 use App\Http\Requests\UpdateProductRequest;
@@ -18,7 +19,7 @@ class ProductController extends Controller
 
     public function index()
     {
-        $products = Product::with('user')->paginate(10);
+        $products = Product::with('user', 'category')->paginate(10); // Tambahkan eager load 'category'
         return view('product.index', compact('products'));
     }
 
@@ -26,7 +27,10 @@ class ProductController extends Controller
     {
         $this->authorize('manage-product'); 
         $users = User::all();
-        return view('product.create', compact('users'));
+        $categories = Category::all(); // Ambil semua data kategori untuk dropdown
+        
+        // Kirim variabel $categories ke view product.create[cite: 1]
+        return view('product.create', compact('users', 'categories'));
     }
 
     public function store(StoreProductRequest $request)
@@ -48,7 +52,7 @@ class ProductController extends Controller
 
     public function show($id)
     {
-        $product = Product::with('user')->findOrFail($id);
+        $product = Product::with('user', 'category')->findOrFail($id); // Tambahkan eager load 'category'
         return view('product.view', compact('product'));
     }
 
@@ -57,7 +61,8 @@ class ProductController extends Controller
         $product = Product::findOrFail($id);
         $this->authorize('update', $product);
         $users = User::all();
-        return view('product.edit', compact('product', 'users'));
+        $categories = Category::all(); // Tambahkan kategori untuk halaman edit
+        return view('product.edit', compact('product', 'users', 'categories'));
     }
 
     public function update(UpdateProductRequest $request, $id)

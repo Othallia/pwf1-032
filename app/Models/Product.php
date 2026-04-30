@@ -15,10 +15,17 @@ class Product extends Model
         'qty',   // Pastikan 'qty' ada di sini
         'price', // Pastikan 'price' ada di sini
         'user_id',
+        'category_id', // Ditambahkan untuk relasi ke tabel category
     ];
 
     public function user()
     {
         return $this->belongsTo(User::class);
+    }
+
+    // Relasi: 1 Produk dimiliki oleh 1 Kategori
+    public function category()
+    {
+        return $this->belongsTo(Category::class, 'category_id');
     }
 }
