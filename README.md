@@ -36,3 +36,12 @@ crud produk
 
 ## Praktikum 6
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1dd2587a-1be5-4c2b-9867-32dd94244401" />
+
+## Praktikum 7
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/00351139-4491-4396-9072-cb92f4b9f839" />
+
+# edit detail
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/146a1f29-b9a1-4b24-b2ae-dce569ba38c3" />
+
+# hapus detail
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02419deb-c028-4669-a921-9e6c1ec99a40" />
