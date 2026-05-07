@@ -58,3 +58,20 @@ add category
 
 Add Product ubah dengan relasi ke Category
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f534306-3154-453f-bf1f-8e43fbe4fec9" />
+
+## Praktikum 9
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/586a37ff-dc1e-407f-b3bc-1dffcf910352" />
+
+category:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa439459-5e01-47c2-9d07-07415a8b3138" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6efef2c-b171-4101-aa77-41851ff135f1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/853a0b20-6e7a-4174-9075-7117907a5966" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/32e8d7c9-7829-4846-8c15-ae69a3fa412b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e9c6350c-55d0-462d-bf57-7070c37b647a" />
+
+product:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/61dde31e-e7e0-4693-be7f-6081b5eec3fe" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/32bd216d-9956-4407-92ac-66b5993647ed" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6fc0eb01-52d0-4f70-b989-7367bb69bc01" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/60336238-0714-46fa-9276-f9d8a3e594bb" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/88af2261-3ad2-42dc-bd00-ca22102873ec" />
